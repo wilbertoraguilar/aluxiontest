@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "a11f7af2-e585-4b05-957e-0869e9f841e5",
+		"name": "Aluxion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25828700"
+	},
+	"item": [
+		{
+			"name": "Artists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/artists",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"artists"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Albums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ArtistsAlbums",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/artists-albums",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"artists-albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AlbumsEnriched",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/albums-enriched",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"albums-enriched"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
